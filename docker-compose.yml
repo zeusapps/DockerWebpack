@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  webpack:
+    image: webpack
+    build:
+      context: ./WebPack
+      dockerfile: Dockerfile

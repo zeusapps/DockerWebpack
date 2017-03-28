@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+  webpack:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "5000:5000"
+      - "5001:5001"
