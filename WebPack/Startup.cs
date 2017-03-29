@@ -42,8 +42,7 @@ namespace WebApplicationBasic
             {
                 app.UseDeveloperExceptionPage();
                 app.UseWebpackDevMiddleware(new WebpackDevMiddlewareOptions {
-                    HotModuleReplacement = true,
-                    HotModuleReplacementServerPort = 5001
+                    HotModuleReplacement = true
                 });
             }
             else
